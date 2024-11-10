@@ -9,14 +9,13 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvNumber"
+
+    <ImageView
+        android:id="@+id/diceImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_0"
-        android:textSize="40sp"
-        android:textStyle="bold"
-
+        android:src="@drawable/four_icon"
+        android:padding="20dp"
         />
     <Button
         android:id="@+id/btClickme"
